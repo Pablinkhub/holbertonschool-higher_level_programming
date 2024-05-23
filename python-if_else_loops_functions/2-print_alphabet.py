@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    print("{}".format(chr(i)), end='/n')
+print("".join("{}".format(chr(i)) for i in range(97, 123)), end='\n')
