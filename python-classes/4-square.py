@@ -1,5 +1,13 @@
 #!/usr/bin/python3
+"""
+Module for defining a Square class.
+
+"""
+
+
 class Square:
+    """A class that defines a square by its size with type and value checks.
+    """
     def __init__(self, size=0):
         self.__size = size
 
@@ -16,4 +24,5 @@ class Square:
         self.__size = value
 
     def area(self):
+        
         return self.__size ** 2
