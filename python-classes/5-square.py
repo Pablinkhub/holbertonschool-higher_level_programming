@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""Defines a Square class with size attribute and methods to calculate area and print the square."""
+"""Defines a Square class, the square."""
 
 
 class Square:
-    """Class for square objects with methods for area calculation and graphical representation."""
+    """Class for area calculation and graphical representation."""
     
     def __init__(self, size=0):
-        """Initialize a Square with optional size, defaults to 0, with validation."""
+        """Initialize a Square with optional size, defaults to 0"""
         self.size = size  # Utiliza el setter para validar
 
     @property
