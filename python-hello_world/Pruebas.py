@@ -93,4 +93,3 @@ if __name__ == '__main__':
             print("Número de prueba no válido. Pruebas disponibles:")
             for key in pruebas.keys():
                 print(key)
-
