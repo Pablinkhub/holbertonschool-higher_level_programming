@@ -4,7 +4,7 @@ number = random.randint(-10000, 10000)
 Ultimo_Digito = number % 10 if number >= 0 else number % -10
 
 if Ultimo_Digito > 5:
-    mensaje = "and is grater than 5"
+    mensaje = "and is greater than 5"
 elif Ultimo_Digito == 0:
     mensaje = "and is 0"
 else:
