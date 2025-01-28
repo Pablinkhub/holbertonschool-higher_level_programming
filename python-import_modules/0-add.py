@@ -7,3 +7,5 @@ def main():
     result = add(a,b)
     print(f"{a} + {b} = {result}")
     
+    if _name_ == "_main_":
+        main ()
