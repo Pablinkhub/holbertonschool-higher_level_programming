@@ -3,7 +3,7 @@ from calculator_1.py import add, sub, mul, div
 
 def main():
     
-    a= 10
+    a = 10
     b = 5
     
     print ("{} + {} = {}".format(A, b, add(a, b)))
