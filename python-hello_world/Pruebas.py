@@ -65,7 +65,9 @@ def prueba10():
     print("Tan solo una reafirmación de lo dicho en la prueba 9")
     
     
-    
+def pueba11():
+    a = [1, 2, 3, 4]
+    a[0]
     
     
     
